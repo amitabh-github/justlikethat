@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-09-30T12:36:00.155Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="vgk-CopvP4Z3VUuaq_tU" version="21.7.5" type="github">
+  <diagram name="Page-1" id="3XSQEVLv0cIw_9h6EMbb">
+    <mxGraphModel dx="2318" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RG4MJviADbERtLvWTuo3-1" value="OMS Core" style="whiteSpace=wrap;html=1;aspect=fixed;fillStyle=auto;strokeColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="240" width="280" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-2" value="Ordering Controller" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="425" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-3" value="Forecast Controller" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-5" value="Shipping Controller" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="320" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-9" value="DM API Webapp&lt;br&gt;IF08" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-354" y="327" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-11" value="CHM API WebApp&lt;br&gt;IF20" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="327" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-12" value="3PL API WebApp&lt;br&gt;IF67" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-305" y="425" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RG4MJviADbERtLvWTuo3-3" target="RG4MJviADbERtLvWTuo3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="350" as="sourcePoint" />
+            <mxPoint x="-210" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-215" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-19" value="SendAggregatedForecast" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RG4MJviADbERtLvWTuo3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-20" value="CHM" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="340" width="55" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-175" y="366.74" as="sourcePoint" />
+            <mxPoint x="-75" y="366.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-22" value="OMSCHM07" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="RG4MJviADbERtLvWTuo3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-26" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-33" value="Portal" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="600" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RG4MJviADbERtLvWTuo3-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RG4MJviADbERtLvWTuo3-3" target="RG4MJviADbERtLvWTuo3-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-590" y="420" as="sourcePoint" />
+            <mxPoint x="-540" y="620.5128205128206" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-540" y="645" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
